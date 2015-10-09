@@ -1,0 +1,5 @@
+2015-10-09 16:43:00.245 下午 : INFO [main] (com.games.game.server.GameServer.main(GameServer.java:213)) -init completed, wait your command...
+2015-10-09 16:43:00.248 下午 : INFO [main] (com.games.game.server.GameServer.main(GameServer.java:215)) -server ready.
+2015-10-09 16:43:05.397 下午 : INFO [main] (com.games.test.ServerQuit.main(ServerQuit.java:48)) -send the 'EXIT' command at Fri Oct 09 16:43:05 CST 2015.
+2015-10-09 16:43:05.446 下午 : INFO [pool-1-thread-1] (com.games.game.server.GameHandle.handleQuitServer(GameHandle.java:68)) -request server exit.
+2015-10-09 16:43:05.452 下午 : INFO [main] (com.games.game.server.GameServer.main(GameServer.java:221)) -server exit.

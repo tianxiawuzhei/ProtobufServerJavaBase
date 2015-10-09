@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Sep 28 17:09:21 CST 2015
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=GamesServer_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.games.game.server.GameServer
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

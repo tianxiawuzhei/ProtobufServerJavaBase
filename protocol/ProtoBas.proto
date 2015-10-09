@@ -1,0 +1,18 @@
+package com.games.common.protocol;
+
+
+//指令类型
+enum eCommand {
+    NOP                         = 0;    //no operation
+    HEARTBEAT                   = 1;    //心跳, 请求 CommonReq, 应答 CommonAns
+    START_GAME                  = 2;   	//开始游戏,请求 StartGameReq，应答 StartGameAns
+
+    QUIT_SERVER                 = 5000; //退出游戏， 请求 CommonReq, 应答 CommonAns
+
+}
+
+//错误码
+enum eErrorCode {
+    OK                                              = 0;
+    FAILED                                          = 1;   		
+}
